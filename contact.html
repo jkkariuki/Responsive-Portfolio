@@ -3,13 +3,14 @@
 <html lang="en-us">
 	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Amiri|BenchNine|Cinzel|Josefin+Slab|Julius+Sans+One|Philosopher|Vidaloka" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/contact.style.css">
 	
 	<head>
 		<title></title>
 	</head>
 
 	<body id="wrapper">
+	
 		<header id="header">
 			<div id="tab">
 				<h1>James Kariuki</h1>
@@ -18,33 +19,36 @@
 
 			<nav>
 				<ul>
-					<a href=" index.html"><li>About</li></a>
+					<a href="index.html"><li>About</li></a>
 					<a href="portfolio.html"><li>Portfolio</li></a>
 					<a href="contact.html"><li>Contact</li></a>
 				</ul>
 			</nav>
 		</header>
+
+
 	
-		
-		<div id="content-wrapper" class="">			
+	
+		<div id="content-wrapper" class="clearfix">			
 			<div class="main_content">
-				<h2 id="page_name">About Me</h2>
-
-				<p> 
-				<img  id="profile_pic" src="assets/images/photo1.jpg" > 
-				It took me two years to finally take the leap and enroll in a WebDev Bootcamp. RCB literally removed every obstacle that stopped me from doing this sooner and left me without a single excuse. So far I couldn't be more excited about my decision and even though you guys have made sure to emphasize how tough the next six months is going to be, I'm looking forward to the challenge. 
-
-				<br>
-
-				I've already said my goodbyes to the NFL this season, and my fantasy team will probably go winless but that's ok; Although Game of Thrones is over next week, the Long Night approaches. I know Winter is coming. I am ready.    
-				</p>
+				<h2 id="page_name">Contact</h2>
+				<form>
+					<h3>Name:</h3>
+					<input type="text" name="fullname" style= "width: 100%" placeholder="FirstName LastName"><br>
+					
+					<h3>Email:</h3>
+					<input type="text" name="email" style="width: 100%" placeholder="ex: john@email.com"><br>
+				
+					<h3>Message:</h3>
+					<input type="text" name="message" style="height: 150px; width: 100%"><br><br>
+					
+					<input id="submit_button" type="submit" value="submit">
+				</form>
 			</div>
 
-			<div class="social_box">
-
+			<div class="social_box">				
 				<h2 id="connect_title">Link Up With Me</h2>
-				<ul id="icons_box">
-				
+				<ul id="icons_box">			
 					<li>
 						<a href="https://github.com/jkkariuki"><img class="icons" src="assets/images/if_github_401441.png"></a>
 					</li>
@@ -56,7 +60,7 @@
 					</li>
 				</ul>
 			</div>
-		</div>
+		</div>	
 
 		<footer>
 			<div id="footer">

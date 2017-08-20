@@ -1,0 +1,161 @@
+* {
+	font-family: Philosopher;
+}
+
+#wrapper {
+  position: relative;
+  width: 960px;
+ 
+  margin: 0 auto;
+  background-image: url(../images/mirrored_squares_@2X.png);
+ 
+}
+
+
+
+#header {
+	background-color: white;
+	margin-bottom: 40px;
+	width: 100%;
+	font-family: Philosopher;
+}
+
+#tab {
+	text-align: center; 
+	font-family: Philosopher;
+	width: 235px;
+	height: 100%;
+	background-color: #800020;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	
+}
+
+nav {
+	position: absolute;
+	float: left;
+	display: inline-block;
+	left: 72.75%;
+	top: .5%;	
+}
+
+nav ul li {
+	
+	display: inline-block;
+	color: #777777;
+	padding: 15px;
+	text-align: center;
+
+}
+ nav ul {
+ 	padding-left: 0px;
+ }
+
+nav ul li:hover {
+	background-color: #800020; 
+	color: white;
+}
+
+
+.main_content {
+	float: left;
+	width: 590px;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: inline-block;
+	border: 1px solid #dddddd;
+	background-color: white;	
+}
+
+.social_box {
+	float: left;
+	width: 250px;
+	font-family: Philosopher;
+	color: #800020;
+	height: 165px;
+	border: 1px solid #dddddd;
+	margin-left: 35px;
+	background-color: white;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main_content p {
+	font-family: Philosopher;
+	line-height: 150%;
+}
+
+#page_name{
+	font-family: Philosopher;
+	border-bottom: solid #dddddd;
+	padding-bottom: 30px;
+	color: #800020;
+}
+
+
+#profile_pic {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-right: 25px;
+}
+
+.icons {
+	height: 50px;
+	width: 50px;
+	padding-left:5px;
+	
+}
+
+#icons_box {	
+	padding-top: 2px;
+}
+
+.social_box li {
+	display: inline-block;	
+}
+
+#connect_title {
+	text-align: center;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 30px;
+
+}
+
+
+
+#footer {
+	top: 100%;
+	text-align: center;
+	background-color: #666666;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 40px;
+	border-top: 5px solid #800020;
+	color: white;
+	font-family: Philosopher;
+	display: inline-block;
+	
+}
+
+@media screen and (max-width: 980px) {
+	#wrapper {
+		width: 800px;
+	}
+
+	.main_content {
+	float: none;
+	}
+
+
+	.social_box {
+	float: none;
+	margin-left: 0px;
+	
+
+}
