@@ -127,7 +127,6 @@ nav ul li:hover {
 }
 
 
-
 #footer {
 	top: 100%;
 	text-align: center;
@@ -148,7 +147,18 @@ nav ul li:hover {
 		width: 800px;
 	}
 
+	#header {
+		
+		width: 768px;
+
+	}
+
+	nav {
+		left: 62.75%;
+	}
+
 	.main_content {
+	width: 707px;
 	float: none;
 	margin-bottom: 20px;
 	}
@@ -157,21 +167,39 @@ nav ul li:hover {
 	.social_box {
 	float: none;
 	margin-left: 0px;
-	left: 25%;
+	left: 30%;
 	position: relative;
-	
+	}
 
+	footer {
+		width: 768px;
+	}
 }
 
 @media screen and (max-width: 768px) {
+	
+
 	#wrapper {
-		width: 516px;
+		width: 768px;
+		margin-left: 0px;
+	}
+
+	#header {
+		width: 640px;
+		margin-left: 0px;
+		position: static;
+		
+
+	}
+
+	nav {
+		left: 50.75%;
 	}
 
 	.main_content {
 	float: none;
 	margin-bottom: 20px;
-	width: 478px;
+	width: 579px;
 	}
 
 
@@ -180,6 +208,50 @@ nav ul li:hover {
 	margin-left: 0px;
 	left: 25%;
 	position: relative;
+	}
+
+	footer {
+	width: 640px;
+	}
+}
+
+@media screen and (max-width: 640px) {
 	
 
+	#wrapper {
+		width: 520px;
+		margin-left: 0px;
+	}
+
+	#header {
+		width: 520px;
+		margin-left: 0px;
+		position: static;
+		
+
+	}
+
+	nav {
+		left: 50.75%;
+	}
+
+	.main_content {
+	float: none;
+	margin-bottom: 20px;
+	width: 460px;
+	}
+
+
+	.social_box {
+	float: none;
+	margin-left: 0px;
+	left: 25%;
+	position: relative;
+	z-index: 2;
+	}
+
+
+footer {
+	width: 520px;
+}
 }
