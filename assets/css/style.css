@@ -150,12 +150,36 @@ nav ul li:hover {
 
 	.main_content {
 	float: none;
+	margin-bottom: 20px;
 	}
 
 
 	.social_box {
 	float: none;
 	margin-left: 0px;
+	left: 25%;
+	position: relative;
+	
+
+}
+
+@media screen and (max-width: 768px) {
+	#wrapper {
+		width: 516px;
+	}
+
+	.main_content {
+	float: none;
+	margin-bottom: 20px;
+	width: 478px;
+	}
+
+
+	.social_box {
+	float: none;
+	margin-left: 0px;
+	left: 25%;
+	position: relative;
 	
 
 }
